@@ -1,9 +1,8 @@
 # ACPButton
 
 This extension of UIButton allow you to have full control of your project button from one class. This class give you the options to create buttons completly image free, combining flat color, gradients, borders etc. You also can create easily buttons using resizable images.
-  
-![](Screen%20Shot%202013-07-16%20at%2011.20.50%20PM.png)
 
+![](Screen%20Shot%202013-07-16%20at%2011.59.36%20PM.png)
 
 You can have all your project buttons, centralized in one class, so at the end you could see changes, modifying this class.
 
@@ -45,5 +44,6 @@ Then, on viewDidLoad we set up the button depending of yor needs,
 
 
 
-[1]:	Screen%20Shot%202013-07-16%20at%2011.20.50%20PM.png
+
+
 [2]:	Screen%20Shot%202013-07-16%20at%2011.05.16%20PM.png
