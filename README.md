@@ -8,11 +8,15 @@ You can have all your project buttons, centralized in one class, so at the end y
 
 ## Instalation
 
+### From [CocoaPods][1]
+
+	pod `ACPButton`
+
 Clone the repository
 
 [*$ git clone git@github.com:antoniocasero/ACPButton.git*]()
 
-Or just drag this class to your project. 
+Or just drag this class to your project and import `ACPButton` to your viewcontroller.
 
 
 ## Implementing
@@ -25,10 +29,8 @@ Then, on viewDidLoad we set up the button depending of yor needs,
 
 `- (void) setStyleType:(ACPButtonType)style;`
 `- (void) setFlatStyleType:(ACPButtonType)style;`
-\`\`
-`- (void) setFlatStyle:(UIColor*)normal andHighlightedColor:(UIColor*)highlight`
+`- (void) setFlatStyle:(UIColor*)normal andHighlightedColor:(UIColor*)highlight;`
 `- (void) setStyle:(UIColor*)topColor andBottomColor:(UIColor*)bottomColor;`
-
 `- (void) setStyleWithImage:(NSString*)image highlightedImage:(NSString*)hImage disableImage:(NSString *)dImage andInsets:(UIEdgeInsets)insets;`
 
 
@@ -54,3 +56,8 @@ Then, on viewDidLoad we set up the button depending of yor needs,
 
 
 
+
+[1]:	http://www.cocoapods.org
+
+[1]:	Screenshot1.png
+[2]:	Screenshot2.png
