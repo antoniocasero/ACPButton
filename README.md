@@ -12,6 +12,9 @@ You can have all your project buttons, centralized in one class, so at the end y
 
 	pod `ACPButton`
 
+### From source
+
+	pod `BButton`
 Clone the repository
 
 [*$ git clone git@github.com:antoniocasero/ACPButton.git*]()
