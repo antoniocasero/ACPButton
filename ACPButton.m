@@ -48,6 +48,20 @@
 
 
 
+-(id)initWithCoder:(NSCoder *)aDecoder {
+
+    self = [super initWithCoder:aDecoder];
+    if(self) {
+        
+        //--------------------------------------------------------------------------
+        //    This type of button is created by default.
+        //--------------------------------------------------------------------------
+        
+        [self setStyleType:ACPButtonGrey];
+    }
+    return self;
+}
+
 
 //--------------------------------------------------------------------------
 //    UIButton Overrides
