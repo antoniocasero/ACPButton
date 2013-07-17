@@ -30,7 +30,7 @@ typedef enum {
 //--------------------------------------------------------------------------
 //    Create your own button using images.
 //--------------------------------------------------------------------------
-- (void) setStyleWithImage:(NSString*)image highlightedImage:(NSString*)hImage disableImage:(NSString*)dImage andEdge:(UIEdgeInsets)edge;
+- (void) setStyleWithImage:(NSString*)image highlightedImage:(NSString*)hImage disableImage:(NSString*)dImage andInsets:(UIEdgeInsets)insets;
 
 //--------------------------------------------------------------------------
 //    Set up a predefine flat button

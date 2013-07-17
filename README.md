@@ -29,6 +29,8 @@ Then, on viewDidLoad we set up the button depending of yor needs,
 `- (void) setFlatStyle:(UIColor*)normal andHighlightedColor:(UIColor*)highlight`
 `- (void) setStyle:(UIColor*)topColor andBottomColor:(UIColor*)bottomColor;`
 
+`- (void) setStyleWithImage:(NSString*)image highlightedImage:(NSString*)hImage disableImage:(NSString *)dImage andInsets:(UIEdgeInsets)insets;`
+
 
 ## Compatibility
 
@@ -38,6 +40,8 @@ Then, on viewDidLoad we set up the button depending of yor needs,
 ## License
 
 `ACPButton` is available under the MIT license. See the LICENSE file for more info.
+
+
 
 
 

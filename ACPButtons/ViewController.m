@@ -55,12 +55,12 @@
     //--------------------------------------------------------------------------
     //    Image resize buttons
     //--------------------------------------------------------------------------
-    [_testButtonWithImage1 setStyleWithImage:@"cont-bt_normal.png" highlightedImage:@"cont-bt_highlighted.png" disableImage:nil andEdge:UIEdgeInsetsMake(19, 7, 19, 7)];
+    [_testButtonWithImage1 setStyleWithImage:@"cont-bt_normal.png" highlightedImage:@"cont-bt_highlighted.png" disableImage:nil andInsets:UIEdgeInsetsMake(19, 7, 19, 7)];
     [_testButtonWithImage1 setLabelTextShadow:CGSizeMake(-1, -1) normalColor:[UIColor blackColor] highlightedColor:nil disableColor:nil];
     [_testButtonWithImage1 setLabelFont:[UIFont fontWithName:@"Helvetica-BoldOblique" size:20]];
 
     
-    [_testButtonWithImage2 setStyleWithImage:@"alert-gray-button.png" highlightedImage:nil disableImage:nil andEdge:UIEdgeInsetsMake(19, 7, 19, 7)];
+    [_testButtonWithImage2 setStyleWithImage:@"alert-gray-button.png" highlightedImage:nil disableImage:nil andInsets:UIEdgeInsetsMake(19, 7, 19, 7)];
     
     
     

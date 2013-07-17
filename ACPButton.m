@@ -199,11 +199,12 @@
 # pragma mark -
 //----------------------------------------------------------------------------------------------------------------
 
-- (void)setStyleWithImage:(NSString*)image highlightedImage:(NSString*)hImage disableImage:(NSString*)dImage andEdge:(UIEdgeInsets)edge {
+- (void)setStyleWithImage:(NSString*)image highlightedImage:(NSString*)hImage disableImage:(NSString*)dImage andInsets:(UIEdgeInsets)insets {
+    
     // Define resizable images
-    UIImage *resizableButton = [[UIImage imageNamed:image] resizableImageWithCapInsets:edge];
-    UIImage *resizableButtonHighlighted = [[UIImage imageNamed:hImage] resizableImageWithCapInsets:edge];
-    UIImage *resizableButtonDisabled = [[UIImage imageNamed:dImage] resizableImageWithCapInsets:edge];
+    UIImage *resizableButton = [[UIImage imageNamed:image] resizableImageWithCapInsets:insets];
+    UIImage *resizableButtonHighlighted = [[UIImage imageNamed:hImage] resizableImageWithCapInsets:insets];
+    UIImage *resizableButtonDisabled = [[UIImage imageNamed:dImage] resizableImageWithCapInsets:insets];
     
     // Set resizable background image
     [self setBackgroundImage:resizableButton forState:UIControlStateNormal];
