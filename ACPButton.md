@@ -43,7 +43,5 @@ Then, on viewDidLoad we set up the button depending of yor needs,
 
 
 
-
-
 [1]:	Screen%20Shot%202013-07-16%20at%2011.20.50%20PM.png
 [2]:	Screen%20Shot%202013-07-16%20at%2011.05.16%20PM.png

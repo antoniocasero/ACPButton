@@ -2,16 +2,15 @@
 
 This extension of UIButton allow you to have full control of your project button from one class. This class give you the options to create buttons completly image free, combining flat color, gradients, borders etc. You also can create easily buttons using resizable images.
   
-![](Screen%20Shot%202013-07-16%20at%2011.20.50%20PM.png)
+![](Screen%20Shot%202013-07-16%20at%2011.59.36%20PM.png)
 
-
-You can have all your project buttons, centralized in one class, so at the end you could see changes, modifying this class.
+**This class support iOS5+**
 
 ## Instalation
 
 Clone the repository
 
-[*$ git clone git@github.com:antoniocasero/ACPButton.git*]()
+$ git clone git@github.com:antoniocasero/ACPButton.git
 
 Or just drag this class to your project. 
 
@@ -31,10 +30,9 @@ Then, on viewDidLoad we set up the button depending of yor needs,
 `- (void) setStyle:(UIColor*)topColor andBottomColor:(UIColor*)bottomColor;`
 
 
-## Compatibility
+## Customizable
 
-- Supports ARC. If you want to use it in a project without ARC, mark ACPButton.m with the linker flag-fobjc-arc.
-- Compatible with iOS5+.
+You will find differents 
 
 ## License
 
@@ -42,8 +40,4 @@ Then, on viewDidLoad we set up the button depending of yor needs,
 
 
 
-
-
-
-[1]:	Screen%20Shot%202013-07-16%20at%2011.20.50%20PM.png
 [2]:	Screen%20Shot%202013-07-16%20at%2011.05.16%20PM.png
