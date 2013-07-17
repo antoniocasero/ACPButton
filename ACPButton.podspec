@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "UIButton subclass to easily add custom buttons to your iOS app."
   s.homepage     = "https://github.com/antoniocasero/ACPButton"
-  s.screenshots  = "https://raw.github.com/jessesquires/BButton/master/Screenshots/screenshot-1.png", "https://raw.github.com/jessesquires/BButton/master/Screenshots/screenshot-2.png"
+  s.screenshots  = "https://github.com/antoniocasero/ACPButton/blob/master/Screen%20Shot%202013-07-16%20at%2011.59.36%20PM.png"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Antonio Casero" => "anto.casero@gmail.com" }
   s.source       = { :git => "https://github.com/antoniocasero/ACPButton.git", :tag => '1.0.0' }
