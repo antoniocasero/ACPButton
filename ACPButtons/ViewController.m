@@ -24,9 +24,9 @@
     
     //We set up different buttons
     
-    //--------------------------------------------------------------------------
-    //    Custom buttons with gradients
-    //--------------------------------------------------------------------------
+    /*--------------------------------------------------------------------------
+        Custom buttons with gradients
+     --------------------------------------------------------------------------*/
     
     [_testButtonNoImage1 setStyleType:ACPButtonOK];
     [_testButtonNoImage1 setLabelTextColor:[UIColor whiteColor] highlightedColor:[UIColor greenColor] disableColor:nil];
@@ -43,18 +43,18 @@
     [_testButtonNoImage3 setBorderStyle:[UIColor orangeColor] andInnerColor:nil];
     
     
-    //--------------------------------------------------------------------------
-    //    Custom Flat buttons
-    //--------------------------------------------------------------------------
+     /*--------------------------------------------------------------------------
+        Custom Flat buttons
+      --------------------------------------------------------------------------*/
     [_testButtonNoImage4 setFlatStyleType:ACPButtonGrey];
 
     [_testButtonNoImage5 setFlatStyleType:ACPButtonDarkGrey];
     [_testButtonNoImage5 setBorderStyle:[UIColor blackColor] andInnerColor:[UIColor darkGrayColor]];
     [_testButtonNoImage5 setLabelFont:[UIFont fontWithName:@"Trebuchet MS" size:20]];
     
-    //--------------------------------------------------------------------------
-    //    Image resize buttons
-    //--------------------------------------------------------------------------
+     /*--------------------------------------------------------------------------
+        Image resize buttons
+      --------------------------------------------------------------------------*/
     [_testButtonWithImage1 setStyleWithImage:@"cont-bt_normal.png" highlightedImage:@"cont-bt_highlighted.png" disableImage:nil andInsets:UIEdgeInsetsMake(19, 7, 19, 7)];
     [_testButtonWithImage1 setLabelTextShadow:CGSizeMake(-1, -1) normalColor:[UIColor blackColor] highlightedColor:nil disableColor:nil];
     [_testButtonWithImage1 setLabelFont:[UIFont fontWithName:@"Helvetica-BoldOblique" size:20]];
