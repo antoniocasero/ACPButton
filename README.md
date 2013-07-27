@@ -4,7 +4,6 @@ This extension of UIButton allow you to have full control of your project button
 
 ![](Screenshot1.png)
 
-You can have all your project buttons, centralized in one class, so at the end you could see changes, modifying this class.
 
 ## Instalation
 
@@ -27,7 +26,7 @@ In the storyboard or XIB file, select your button and change the button class to
 
 ![](Screenshot2.png)
 
-Then, on viewDidLoad we set up the button depending of yor needs,
+Then, on viewDidLoad you can set up the button depending of yor needs,
 
 `- (void) setStyleType:(ACPButtonType)style;`
 `- (void) setFlatStyleType:(ACPButtonType)style;`
@@ -44,6 +43,8 @@ Then, on viewDidLoad we set up the button depending of yor needs,
 ## License
 
 `ACPButton` is available under the MIT license. See the LICENSE file for more info.
+
+
 
 
 
