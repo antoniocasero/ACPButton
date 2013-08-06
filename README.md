@@ -66,3 +66,7 @@ Then, on viewDidLoad you can set up the button depending of yor needs,
 
 [1]:	Screenshot1.png
 [2]:	Screenshot2.png
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/antoniocasero/ACPButton/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
