@@ -12,7 +12,7 @@
 
 #define kLabelFont [UIFont fontWithName:@"HelveticaNeue" size:15]
 #define kColorFontNormal [UIColor whiteColor]
-#define kColorFontHighlighted [UIColor blackColor]
+#define kColorFontHighlighted [UIColor whiteColor]
 #define kColorFontDisable [UIColor grayColor]
 
 #define kColorShadowNormal [UIColor blackColor]
@@ -39,6 +39,8 @@
 
 @property (assign, nonatomic) NSInteger buttonRadius;
 
+//Glow
+@property (assign, nonatomic) BOOL glowActivated;
 
 
 
@@ -58,22 +60,11 @@
         --------------------------------------------------------------------------*/
         
         [self setStyleType:ACPButtonGrey];
+        _glowActivated = NO; //By default
     }
     return self;
 }
 
-
-/*--------------------------------------------------------------------------
-    UIButton Overrides
---------------------------------------------------------------------------*/
-
-
-
-
-+ (ACPButton *)buttonWithType:(UIButtonType)type
-{
-    return [super buttonWithType:UIButtonTypeCustom];
-}
 
 
 
@@ -187,9 +178,51 @@
     
 }
 
+- (void) setGlowHighlightedState:(BOOL)glowOption {
+
+    self.glowActivated = glowOption;
+}
+
+
+- (void) turnOnGlow {
+    self.titleLabel.layer.shadowColor = [UIColor whiteColor].CGColor;
+    self.titleLabel.layer.shadowOffset = CGSizeMake(0.0, 0.0);
+    self.titleLabel.layer.shadowRadius = 10.0;
+    self.titleLabel.layer.shadowOpacity = 0.8;
+    self.titleLabel.layer.masksToBounds = NO;
+
+}
+
+- (void) turnOffGlow {
+    self.titleLabel.layer.shadowColor = nil;
+    self.titleLabel.layer.shadowOffset = CGSizeMake(0.0, 0.0);
+    self.titleLabel.layer.shadowRadius = 0;
+    self.titleLabel.layer.shadowOpacity = 0;
+    self.titleLabel.layer.masksToBounds = NO;
+
+}
+//----------------------------------------------------------------------------------------------------------------
+# pragma mark -
+# pragma mark Override the uibutton methods
+# pragma mark -
+//----------------------------------------------------------------------------------------------------------------
+
 - (void)setHighlighted:(BOOL)highlighted
 {
 	[self setNeedsDisplay];
+    
+    if(_glowActivated){
+        
+        if(highlighted){
+        
+            [self turnOnGlow];
+        }
+        else {
+        
+            [self turnOffGlow];
+        }
+    
+    }
 	[super setHighlighted:highlighted];
 }
 
