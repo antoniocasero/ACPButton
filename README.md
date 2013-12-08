@@ -28,11 +28,12 @@ In the storyboard or XIB file, select your button and change the button class to
 
 Then, on viewDidLoad you can set up the button depending of yor needs,
 
-`- (void) setStyleType:(ACPButtonType)style;`
-`- (void) setFlatStyleType:(ACPButtonType)style;`
-`- (void) setFlatStyle:(UIColor*)normal andHighlightedColor:(UIColor*)highlight;`
-`- (void) setStyle:(UIColor*)topColor andBottomColor:(UIColor*)bottomColor;`
-`- (void) setStyleWithImage:(NSString*)image highlightedImage:(NSString*)hImage disableImage:(NSString *)dImage andInsets:(UIEdgeInsets)insets;`
+* ```- (void) setStyleType:(ACPButtonType)style;```
+* `- (void) setFlatStyleType:(ACPButtonType)style;`
+* `- (void) setFlatStyle:(UIColor*)normal andHighlightedColor:(UIColor*)highlight;`
+* `- (void) setStyle:(UIColor*)topColor andBottomColor:(UIColor*)bottomColor;`
+* `- (void) setStyleWithImage:(NSString*)image highlightedImage:(NSString*)hImage disableImage:(NSString *)dImage andInsets:(UIEdgeInsets)insets;`
+* ```- (void) setGlowHighlightedState:(BOOL)glowOption;```
 
 
 ## Compatibility
