@@ -1,5 +1,7 @@
 # ACPButton
 
+**⚠️ Important note! This library is not maintained anymore. Feel free to keep it updated by yourself, either forking or asking for bening the contributor.**
+
 This extension of UIButton allow you to have full control of your project buttons from one class. This class give you the oportunity to create buttons completly image free, combining flat color, gradients, borders etc. You also can create easily buttons using resizable images.
 
 ![](Screenshot1.png)
